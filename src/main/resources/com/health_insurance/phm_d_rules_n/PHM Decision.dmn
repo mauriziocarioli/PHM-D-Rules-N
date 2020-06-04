@@ -240,6 +240,42 @@
     <dmn:informationRequirement id="_5EFAD00F-982A-4334-94B2-68EC2C607192">
       <dmn:requiredInput href="#_E8020987-D86A-4104-824E-2DD5D5A6D6B9"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_4DA056BC-74E7-43A5-9C21-09771B577267" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_D5D12C69-57E9-486E-92DC-0CFE1B14F76A">
+        <dmn:inputExpression id="_7094ADBA-AB76-4B74-B832-84ED6E58E6F7" typeRef="string">
+          <dmn:text>Trigger.memberId</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_01EDDB60-83C1-429D-ACF2-7755C9F3606E">
+        <dmn:inputExpression id="_0735B7A5-5BBB-4C7B-B757-9F5AF2A9BAD1" typeRef="number">
+          <dmn:text>Trigger.triggerId</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_7972EB4A-2C5D-4878-B6B6-6637EC65A522" name="address" typeRef="string"/>
+      <dmn:output id="_8031C637-0C9D-4652-9549-DAA2C4480E2D" name="from" typeRef="string"/>
+      <dmn:output id="_A61B9C89-E4A3-4142-892E-1F82F0ABCD2A" name="subject" typeRef="string"/>
+      <dmn:output id="_2F4439D1-4FB6-417B-AD4A-33DED5DE2048" name="body" typeRef="string"/>
+      <dmn:rule id="_767A9C2F-A923-4EDB-8601-4BDBC8947861">
+        <dmn:inputEntry id="_77B533E3-B4FD-48B5-99CA-1F9A24A7FEFF">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_B0F8BD0B-7A59-48CD-B706-BC711E88C7D7">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1F61B0F9-42BD-48B0-A484-1A38E1A2AF3E">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_FEBD65C3-59F2-46FB-A9EF-DEB9919523B3">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_53D95C91-7DB9-47CE-A9D5-16856181F4B7">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_9D3E6D08-CB1B-4080-862E-C899A5CCF054">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_E8020987-D86A-4104-824E-2DD5D5A6D6B9" name="Trigger">
     <dmn:description>Trigger</dmn:description>
@@ -276,6 +312,16 @@
             <kie:width>100.0</kie:width>
             <kie:width>101.0</kie:width>
             <kie:width>128.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_4DA056BC-74E7-43A5-9C21-09771B577267">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
