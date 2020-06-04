@@ -192,7 +192,7 @@
     <dmn:informationRequirement id="_D6C750C4-0622-4BE3-B3C3-E2A9CBCCA9EE">
       <dmn:requiredDecision href="#_ECAEFBF3-310B-4B62-A79B-88E314FABBE1"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_EC3081AA-DD79-4CC9-8C03-B17A5A3AAA93" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_EC3081AA-DD79-4CC9-8C03-B17A5A3AAA93" hitPolicy="COLLECT" preferredOrientation="Rule-as-Row">
       <dmn:input id="_22445BA7-E9E3-4B09-9553-5FFCEDCE5BB0">
         <dmn:inputExpression id="_2F32E34B-84A5-4632-875A-17BF51931855" typeRef="Task">
           <dmn:text>Task</dmn:text>
