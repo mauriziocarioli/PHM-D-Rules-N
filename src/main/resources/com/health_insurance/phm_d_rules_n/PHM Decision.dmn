@@ -127,17 +127,17 @@
     <dmn:decisionTable id="_EC3081AA-DD79-4CC9-8C03-B17A5A3AAA93" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_7074D1FC-24A4-415B-8F40-3E98E6AAF2B9">
         <dmn:inputExpression id="_0C4E16E3-FFA5-4D45-A3B4-4F388FC75B65" typeRef="Task">
-          <dmn:text>task</dmn:text>
+          <dmn:text>Response.task</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_0DBD173E-5CCA-4C8A-B78A-A258AFEADB1E">
         <dmn:inputExpression id="_91671341-CD5F-4CA0-97C0-8FC2E1E618B8" typeRef="TaskActorAssignment">
-          <dmn:text>assignment</dmn:text>
+          <dmn:text>Response.assignment</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_22445BA7-E9E3-4B09-9553-5FFCEDCE5BB0">
         <dmn:inputExpression id="_2F32E34B-84A5-4632-875A-17BF51931855" typeRef="Reminder">
-          <dmn:text>reminder</dmn:text>
+          <dmn:text>Response.reminder</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_D9C51A3C-EAE8-417C-9CD9-8E9A9AC54588" typeRef="Response"/>
