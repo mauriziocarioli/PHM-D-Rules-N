@@ -95,13 +95,41 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:decision id="_639BF9B2-FCF4-49CA-8B6D-9D4968CE9726" name="Actor Assignment">
+  <dmn:decision id="_639BF9B2-FCF4-49CA-8B6D-9D4968CE9726" name="Task Actor Assignment">
     <dmn:description>Actor Assignment</dmn:description>
     <dmn:extensionElements/>
-    <dmn:variable id="_BD60978D-C21B-42B8-A57D-7E81BF2243F2" name="Actor Assignment" typeRef="TaskActorAssignment"/>
+    <dmn:variable id="_BD60978D-C21B-42B8-A57D-7E81BF2243F2" name="Task Actor Assignment" typeRef="TaskActorAssignment"/>
     <dmn:informationRequirement id="_FC4DA998-0A36-44F7-948B-B49626CB6FC7">
       <dmn:requiredInput href="#_E8020987-D86A-4104-824E-2DD5D5A6D6B9"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_A0ED2B1D-83B0-471D-9C9F-EC327B88F39A" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_7B6FE565-800D-4C83-81D8-8D752188465D">
+        <dmn:inputExpression id="_E317C3B4-F8CD-431A-8D16-B3B8B5DF48A5" typeRef="string">
+          <dmn:text>Trigger.memberId</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_3C83D77D-9B7E-4255-A8F6-0E36D6DEDA17">
+        <dmn:inputExpression id="_0540B7DC-9C25-49A7-9ADC-ADD935EC6172" typeRef="number">
+          <dmn:text>Trigger.triggerId</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_42C16B3A-CB23-4456-987C-D7190DC75587" name="Task Actor Assignment.actor" typeRef="string"/>
+      <dmn:output id="_424A4378-2743-436E-B505-F201CF991720" name="escalationActor" typeRef="string"/>
+      <dmn:rule id="_71A962FC-AECB-4E31-9A63-4089E0E34DB5">
+        <dmn:inputEntry id="_4B27A0C4-AABF-4A02-A391-9E90F0420C05">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_30043491-FEAD-40ED-A7F5-0CFEF5E7CC03">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_1EEC341E-9A51-4667-8AAD-FF7CD585480D">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_A763E6EB-6167-41DE-8F49-1A820087BA88">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_0978B404-D865-4839-AFBA-126515D44824" name="Task">
     <dmn:description>Task</dmn:description>
@@ -198,6 +226,14 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_A0ED2B1D-83B0-471D-9C9F-EC327B88F39A">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>199.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_CB3D34B3-DD65-4D9C-868A-74BE63C5E72E">
             <kie:width>50.0</kie:width>
             <kie:width>150.0</kie:width>
