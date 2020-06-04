@@ -240,7 +240,7 @@
     <dmn:informationRequirement id="_5EFAD00F-982A-4334-94B2-68EC2C607192">
       <dmn:requiredInput href="#_E8020987-D86A-4104-824E-2DD5D5A6D6B9"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_4DA056BC-74E7-43A5-9C21-09771B577267" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_4DA056BC-74E7-43A5-9C21-09771B577267" hitPolicy="ANY" preferredOrientation="Rule-as-Row">
       <dmn:input id="_D5D12C69-57E9-486E-92DC-0CFE1B14F76A">
         <dmn:inputExpression id="_7094ADBA-AB76-4B74-B832-84ED6E58E6F7" typeRef="string">
           <dmn:text>Trigger.memberId</dmn:text>
