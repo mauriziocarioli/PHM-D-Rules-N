@@ -182,7 +182,7 @@
   <dmn:decision id="_30C2A21B-70B2-4E62-A121-44FB54258B69" name="Response">
     <dmn:description>Response</dmn:description>
     <dmn:extensionElements/>
-    <dmn:variable id="_0B58779C-4ADE-4B6A-B49B-5094B50086D3" name="Response" typeRef="Response"/>
+    <dmn:variable id="_0B58779C-4ADE-4B6A-B49B-5094B50086D3" name="Response" typeRef="Task"/>
     <dmn:informationRequirement id="_40B9BDFB-3078-4AFD-A587-7C64AFC87F54">
       <dmn:requiredDecision href="#_639BF9B2-FCF4-49CA-8B6D-9D4968CE9726"/>
     </dmn:informationRequirement>
@@ -195,15 +195,23 @@
     <dmn:decisionTable id="_EC3081AA-DD79-4CC9-8C03-B17A5A3AAA93" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_22445BA7-E9E3-4B09-9553-5FFCEDCE5BB0">
         <dmn:inputExpression id="_2F32E34B-84A5-4632-875A-17BF51931855" typeRef="Task">
-          <dmn:text>Response.task</dmn:text>
+          <dmn:text>Task</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_D9C51A3C-EAE8-417C-9CD9-8E9A9AC54588" typeRef="Response"/>
+      <dmn:output id="_D9C51A3C-EAE8-417C-9CD9-8E9A9AC54588" name="task" typeRef="Task"/>
+      <dmn:output id="_ECAEECDE-CE32-4F77-84C5-78385DA0BD44" name="assignment" typeRef="TaskActorAssignment"/>
+      <dmn:output id="_219C85F3-48B1-4649-9783-76B1ED8A6041" name="reminder" typeRef="Reminder"/>
       <dmn:rule id="_95821499-9077-4BD0-AF9F-5194B5BDFEDE">
         <dmn:inputEntry id="_E74293F9-FDB8-41AF-9BD9-89271A7ED351">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_D3B97548-D924-49EE-8D25-6A5F6813E531">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_36E77061-47EC-4453-91A6-B08861961705">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_F5EBBFDA-9893-4A3B-AB67-29318676E5CF">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
@@ -248,6 +256,8 @@
           <kie:ComponentWidths dmnElementRef="_EC3081AA-DD79-4CC9-8C03-B17A5A3AAA93">
             <kie:width>50.0</kie:width>
             <kie:width>175.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
