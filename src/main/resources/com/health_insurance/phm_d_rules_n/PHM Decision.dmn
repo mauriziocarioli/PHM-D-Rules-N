@@ -129,7 +129,7 @@
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_4265D83B-6319-4831-8DA9-20F453835EFD">
-          <dmn:text>Response</dmn:text>
+          <dmn:text></dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
