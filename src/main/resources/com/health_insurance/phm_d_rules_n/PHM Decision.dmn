@@ -182,7 +182,7 @@
   <dmn:decision id="_30C2A21B-70B2-4E62-A121-44FB54258B69" name="Response">
     <dmn:description>Response</dmn:description>
     <dmn:extensionElements/>
-    <dmn:variable id="_0B58779C-4ADE-4B6A-B49B-5094B50086D3" name="Response" typeRef="Task"/>
+    <dmn:variable id="_0B58779C-4ADE-4B6A-B49B-5094B50086D3" name="Response" typeRef="Response"/>
     <dmn:informationRequirement id="_40B9BDFB-3078-4AFD-A587-7C64AFC87F54">
       <dmn:requiredDecision href="#_639BF9B2-FCF4-49CA-8B6D-9D4968CE9726"/>
     </dmn:informationRequirement>
