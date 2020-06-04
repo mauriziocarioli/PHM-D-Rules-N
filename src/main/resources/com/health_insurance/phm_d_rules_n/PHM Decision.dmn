@@ -1,6 +1,100 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_9228CA66-DE6B-464A-9712-95068C9E0A22" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_7D4A500B-9BAD-4833-8B06-8ED888BC4BED" name="PHM Decision" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_9228CA66-DE6B-464A-9712-95068C9E0A22">
   <dmn:extensionElements/>
+  <dmn:itemDefinition id="_0FF94913-2E1A-4E61-8371-A3A051EC6598" name="Insert a name" isCollection="false">
+    <dmn:typeRef>Any</dmn:typeRef>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_CA65A60D-2735-4AF9-B397-2E806B8D0C84" name="Reminder" isCollection="false">
+    <dmn:itemComponent id="_8C3C3E90-3055-4696-A816-FFF24E8A9D35" name="body" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_575AAAA8-D35C-42A3-A2FE-9F5B8E3B64D8" name="from" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_5D76C2CF-74EE-43A3-B031-48CE5438AD1F" name="subject" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_6B9C29AB-26F8-468B-921B-5A363BE1347F" name="address" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_F9EA981B-467C-473D-B090-849D279B08D4" name="Response" isCollection="false">
+    <dmn:itemComponent id="_E05A5B8A-3244-441D-9269-0C2D9C845863" name="assignment" isCollection="false">
+      <dmn:typeRef>TaskActorAssignment</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_F268FD68-C238-4CB3-9DE9-674F6E02FB15" name="reminder" isCollection="false">
+      <dmn:typeRef>Reminder</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_41FCB153-2E68-45EA-8532-A801D3345982" name="task" isCollection="false">
+      <dmn:typeRef>Task</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_9D9A6BC9-234B-4F14-A169-2ABFB7910585" name="Task" isCollection="false">
+    <dmn:itemComponent id="_48DF2CA7-D8AD-458B-8A83-C4F7820A3430" name="status" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_A602CC7F-F8A7-4D69-BD53-ED900469A4E1" name="expirationDate" isCollection="false">
+      <dmn:typeRef>date and time</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_9F4E4A58-DB00-4EFC-9FDB-835D5FE0F97C" name="origId" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_12F8B704-E6B1-45B2-8924-9A5254DEF9B2" name="close" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_6E9C72F5-1463-4DC7-9431-0042336E7169" name="suppressed" isCollection="false">
+      <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_5FEC6A11-7DBE-4998-8B92-ADC82357F119" name="id" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_7DB6B203-F99D-45DE-AF01-FAA229C4FE32" name="reminderInitiation" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_07503031-4904-465D-A7F3-0F8C264AE669" name="reminderFrequency" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_4E948371-045F-48DF-8597-E0DCB9FCE5F0" name="closeSignal" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_EDE26DC6-7D4E-4A62-868D-B73AD4B12DD3" name="predecessor" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_C423BA84-F316-4FF3-ABA7-0AFD53863658" name="description" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_8903F71B-E3C0-4E91-8687-458ACB39623B" name="escalated" isCollection="false">
+      <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_F0ABCA41-0B23-4EFF-A602-6F370C47DDF8" name="suppressionPeriod" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_DA3AEC48-40EB-4D09-B3C9-13D1A8C5A2D2" name="escalationTimer" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_66AE0AD3-1496-4382-A35A-DB3770679FDA" name="TaskActorAssignment" isCollection="false">
+    <dmn:itemComponent id="_B5FF500B-E628-4B7A-B77E-C0B03ABE2901" name="escalationChannel" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_15B06098-0B00-4625-B40F-1D19819F16A4" name="channel" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_4DE0200E-0AAD-4B08-9982-B7C5BC415EC5" name="escalationActor" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_AEA0FD76-BB0D-4EEB-BF52-B6FB3756F930" name="actor" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_772DCA03-0979-4246-98BF-68BCF5AA133F" name="Trigger" isCollection="false">
+    <dmn:itemComponent id="_2587F3F8-E43A-4B4E-843A-7D1CF098B3BC" name="memberId" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_53530BD2-3EDF-487D-A8BA-72CD2299FFD2" name="triggerId" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
