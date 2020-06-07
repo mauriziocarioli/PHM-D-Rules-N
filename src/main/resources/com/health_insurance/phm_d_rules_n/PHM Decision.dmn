@@ -205,7 +205,7 @@
           <dmn:text>74</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_F0FC7860-985C-4B4C-9DB2-B1EBB12457F5">
-          <dmn:text></dmn:text>
+          <dmn:text>58</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_2081D498-D78D-4BDC-8F90-3194D95D41D3">
           <dmn:text></dmn:text>
@@ -243,7 +243,7 @@
           <dmn:text>74</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_AEE80FED-46E3-4CCF-BF68-F0FACC069575">
-          <dmn:text></dmn:text>
+          <dmn:text>128</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_0FC79B90-01F6-4DE1-8EC1-AE5E6F7EC25D">
           <dmn:text></dmn:text>
@@ -281,7 +281,7 @@
           <dmn:text>74</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_F226450D-BB9A-4485-A37C-5AB663646B28">
-          <dmn:text></dmn:text>
+          <dmn:text>112</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_4D755719-EA2D-4E18-A439-2896C7048178">
           <dmn:text></dmn:text>
@@ -313,13 +313,13 @@
       </dmn:rule>
       <dmn:rule id="_14490292-9195-4125-BA09-B3C5C9EB832F">
         <dmn:inputEntry id="_02F9B169-5ADA-487A-9518-DA388A7BD35D">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"xyz"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_47F3D398-D263-4ABD-851E-8503EC52DAF9">
-          <dmn:text>-</dmn:text>
+          <dmn:text>184</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_4AF762BA-DF38-4144-8530-2F225CB3AED3">
-          <dmn:text></dmn:text>
+          <dmn:text>76</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_D66C8725-90EC-49F9-A510-55C6ECC3CA6C">
           <dmn:text></dmn:text>
@@ -351,13 +351,13 @@
       </dmn:rule>
       <dmn:rule id="_6C23848A-A9D3-4D7F-B6BE-EACB45AF5480">
         <dmn:inputEntry id="_1DE5B98C-A13A-40CD-980A-51611282CBF6">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"xyz"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2D07D1C1-AC0F-404D-9F9C-46016A095C06">
-          <dmn:text>-</dmn:text>
+          <dmn:text>184</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_1EA027E1-DD80-4BB0-B0F3-28EEF18D3DFD">
-          <dmn:text></dmn:text>
+          <dmn:text>48</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_BD947D19-08DB-47CB-ACB5-459C54B432C6">
           <dmn:text></dmn:text>
