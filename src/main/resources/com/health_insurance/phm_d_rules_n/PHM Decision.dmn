@@ -151,6 +151,7 @@
       </dmn:input>
       <dmn:output id="_2B428FC7-115E-41E4-99E8-E9C42F76B281" name="Task.id" typeRef="number"/>
       <dmn:output id="_026066C8-0251-40D4-A61F-DDA6C0F0FEA7" name="origId" typeRef="string"/>
+      <dmn:output id="_84205339-CE3D-4496-8B9B-37668421FC2E" name="description" typeRef="string"/>
       <dmn:output id="_B6E4DDE0-6CA0-4788-8033-5BB23323285D" name="predecessor" typeRef="number"/>
       <dmn:output id="_B9CBC760-DF65-4401-BE9C-1DF014D15E29" name="suppressed" typeRef="boolean"/>
       <dmn:output id="_29DB05EE-F21B-485E-995A-645EC2F8DF7F" name="suppressionPeriod" typeRef="string"/>
@@ -171,6 +172,9 @@
         </dmn:outputEntry>
         <dmn:outputEntry id="_F867FFCB-92D3-431F-AEB9-2198ABFB435B">
           <dmn:text>"A490.0"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_C4284812-2541-42E2-B081-54E8186CCDC6">
+          <dmn:text>"Provider activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_10066396-5957-4460-87D2-FCD3E99BC8A8">
           <dmn:text></dmn:text>
@@ -208,19 +212,22 @@
           <dmn:text>58</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_2081D498-D78D-4BDC-8F90-3194D95D41D3">
-          <dmn:text></dmn:text>
+          <dmn:text>"B143"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_6AB38071-D3F5-46D4-B694-49A7F8495AEB">
+          <dmn:text>"community activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_76D619DA-30D5-47B4-B003-2AAFF3C0DB42">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_A184017E-C24C-4F79-A8AA-8FB3E3CD1058">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_034B7990-A250-447D-83F9-0C34CE287358">
-          <dmn:text></dmn:text>
+          <dmn:text>""</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_15162592-84E9-4DBB-82E5-12354C42D947">
-          <dmn:text></dmn:text>
+          <dmn:text>date(2020,12,31)</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_786D2651-FE53-413D-912B-C8474365666C">
           <dmn:text></dmn:text>
@@ -246,19 +253,22 @@
           <dmn:text>128</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_0FC79B90-01F6-4DE1-8EC1-AE5E6F7EC25D">
-          <dmn:text></dmn:text>
+          <dmn:text>"C201"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_B833283F-0931-45E0-93F9-170596514444">
+          <dmn:text>"Member activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_F7791E19-D982-4167-AEEE-E6491D22FA5D">
-          <dmn:text></dmn:text>
+          <dmn:text>35</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_29C161BF-56AD-491D-A1F3-792851C245B8">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_D28755CA-1B01-4596-BF3C-17572D6A380D">
-          <dmn:text></dmn:text>
+          <dmn:text>""</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_7925126F-0AD2-4BEA-B1BB-5CBCC17A06B2">
-          <dmn:text></dmn:text>
+          <dmn:text>date(2020,12,31)</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_64A7970E-DAE4-43EA-AD21-3A6BF4CCF387">
           <dmn:text></dmn:text>
@@ -284,19 +294,22 @@
           <dmn:text>112</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_4D755719-EA2D-4E18-A439-2896C7048178">
-          <dmn:text></dmn:text>
+          <dmn:text>"C178"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_102F34D9-4784-4F64-945D-88E7D0F29C62">
+          <dmn:text>"Pharmacist activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_B1F5CF1A-B689-4B60-A86C-E68E10AD34B3">
-          <dmn:text></dmn:text>
+          <dmn:text>35</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_685C3D73-7809-4D05-B55A-544F9D2B0F14">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_B4B22706-4EBF-484E-85EC-0BEDD9CB53DE">
-          <dmn:text></dmn:text>
+          <dmn:text>""</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_3C6ACAE4-0BF2-4DCE-85E4-A1E102342127">
-          <dmn:text></dmn:text>
+          <dmn:text>date(2020,12,31)</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_71824A7F-6307-4A77-A74D-773ED891CDFC">
           <dmn:text></dmn:text>
@@ -322,19 +335,22 @@
           <dmn:text>76</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_D66C8725-90EC-49F9-A510-55C6ECC3CA6C">
-          <dmn:text></dmn:text>
+          <dmn:text>"C123.0"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_3475D4E9-3839-429A-8CB1-8D6311159F06">
+          <dmn:text>"Provider activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_086F7495-E24F-4D9C-805B-D57B5FBA52DA">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_CF9AD47A-130F-47ED-A5CA-57117A6C9923">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_F39E658F-F31E-4B1F-8939-99B7BA80481D">
-          <dmn:text></dmn:text>
+          <dmn:text>""</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_8FF3AE3A-6034-4990-9B1B-DC53A224E96D">
-          <dmn:text></dmn:text>
+          <dmn:text>date(2020,12,31)</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_CDFBE378-DA8A-49EF-A192-3C29E9D80A07">
           <dmn:text></dmn:text>
@@ -360,19 +376,22 @@
           <dmn:text>48</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_BD947D19-08DB-47CB-ACB5-459C54B432C6">
-          <dmn:text></dmn:text>
+          <dmn:text>"B104"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_38271117-D165-4EE8-BA8A-0939EB0EB778">
+          <dmn:text>"Pharmacist activity"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_3318E2EC-7E2A-4DEA-B737-47A2D5F1C39A">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_53C0C39D-94C3-44F9-9502-48EA040E5BA4">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_0E303BC2-6F58-4B32-A2F7-F641C321DECF">
-          <dmn:text></dmn:text>
+          <dmn:text>""</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_C301D457-F761-4828-953D-0F7D6446D1E3">
-          <dmn:text></dmn:text>
+          <dmn:text>date(2020,12,31)</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_A5C4C416-D94E-4E73-8774-31E648BE6073">
           <dmn:text></dmn:text>
@@ -487,6 +506,7 @@
             <kie:width>50.0</kie:width>
             <kie:width>150.0</kie:width>
             <kie:width>127.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
