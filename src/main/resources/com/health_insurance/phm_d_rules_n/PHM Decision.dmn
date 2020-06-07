@@ -536,22 +536,122 @@
       <dmn:output id="_2F4439D1-4FB6-417B-AD4A-33DED5DE2048" name="body" typeRef="string"/>
       <dmn:rule id="_767A9C2F-A923-4EDB-8601-4BDBC8947861">
         <dmn:inputEntry id="_77B533E3-B4FD-48B5-99CA-1F9A24A7FEFF">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"xyz"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B0F8BD0B-7A59-48CD-B706-BC711E88C7D7">
-          <dmn:text>-</dmn:text>
+          <dmn:text>74</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_1F61B0F9-42BD-48B0-A484-1A38E1A2AF3E">
-          <dmn:text></dmn:text>
+          <dmn:text>"peter@doctors.com"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_FEBD65C3-59F2-46FB-A9EF-DEB9919523B3">
-          <dmn:text></dmn:text>
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_53D95C91-7DB9-47CE-A9D5-16856181F4B7">
-          <dmn:text></dmn:text>
+          <dmn:text>"Reminder"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_9D3E6D08-CB1B-4080-862E-C899A5CCF054">
-          <dmn:text></dmn:text>
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_EC2FB2B3-1524-4DBD-ACFE-CD1D3AD81856">
+        <dmn:inputEntry id="_56DF6D8E-9592-45BA-8B48-3BC9ECF321DA">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_D2F6C546-B221-41AA-8A7C-B53E2451AD72">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_3ED785AF-6738-489F-9405-7BFA0CCE3B78">
+          <dmn:text>"charlie@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_49ADECC1-F242-4639-ACB8-26EBD33BF5EF">
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_8CCBA73E-2739-4B01-8C8B-77004662070E">
+          <dmn:text>"Reminder"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_D9FD0FFA-D653-4C5E-8908-6248189CFB99">
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_E0F48944-A589-4105-96D2-77061F1EE2AA">
+        <dmn:inputEntry id="_3C3B6CC8-717D-4B01-8759-BA4A450DBEF9">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_AC236DC2-D47A-40C3-BDCF-2250BD8B7BC8">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_24F90878-6A07-4365-8586-58BBEFD4F718">
+          <dmn:text>"mary@mail.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_613ED45B-A511-48B1-B3B5-5AB0561F6A7B">
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_E2BF26EA-5DD2-4616-B82F-4EB3CC76B274">
+          <dmn:text>"Reminder"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_F8FE4544-E76B-40D2-8FC7-1A56F0A455AB">
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_D19281D0-32D7-4628-BC84-6F38F93256E9">
+        <dmn:inputEntry id="_D12E9C72-1335-484B-9839-8CFD03667431">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1E491989-8ECE-439A-9476-B4CFD197F8A5">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_853BBEA9-1F10-4D65-AFF6-32C17ED5DE35">
+          <dmn:text>"robert@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_3972D212-45BF-45D4-B0B9-E030FB0C69CA">
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_926E2E69-F627-4740-9205-378DC88D15D1">
+          <dmn:text>"Reminder"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_F2B285B7-5A8C-4354-B5C8-C17CEEACC34D">
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_7ECECF46-282E-4530-9072-B07B9C4BD4F9">
+        <dmn:inputEntry id="_1C447914-F6F7-40AB-A800-6D0B618CE95D">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_336365D0-8647-4711-A3A9-93DA95BE127A">
+          <dmn:text>184</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_972F5959-E683-4BD1-A686-496099578A06">
+          <dmn:text>"robert@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_99D74DCF-D44B-49FD-82A1-393687E96EE7">
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_2C6FEC06-DA7C-4FA0-B7E4-53BF4CB13097">
+          <dmn:text>"Reminder"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_AF0857A9-1F3D-417B-9662-C5F3F3A57BF3">
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_EB215C43-A4EC-460C-BB44-425FE098CCA6">
+        <dmn:inputEntry id="_51645952-2556-48FB-92B1-E7AC968A52DE">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_8FCB9573-EE98-4807-8EE5-DFDCE655B972">
+          <dmn:text>184</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_625E03CC-C8A3-4479-AFE7-A96E67BB32FD">
+          <dmn:text>"alison@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_FA9DF7E1-6647-4BFC-8261-8A9ACC28125F">
+          <dmn:text>"phm@health_insurance.com"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_3290F11D-4489-4FBD-88CE-9FD6DB2D7969">
+          <dmn:text>"Reminder"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_8BEE3732-88DA-4F2D-A022-BA38FD5E28AB">
+          <dmn:text>"Hello Sir/Madam, this is just a friendly reminder to complete your task"</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
@@ -608,7 +708,7 @@
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
+            <kie:width>262.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
