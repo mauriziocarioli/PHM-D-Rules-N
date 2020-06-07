@@ -209,7 +209,7 @@
     <dmn:informationRequirement id="_E92A3F25-E594-4267-B471-A476B345104D">
       <dmn:requiredInput href="#_E8020987-D86A-4104-824E-2DD5D5A6D6B9"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_CB3D34B3-DD65-4D9C-868A-74BE63C5E72E" hitPolicy="ANY" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_CB3D34B3-DD65-4D9C-868A-74BE63C5E72E" hitPolicy="PRIORITY" preferredOrientation="Rule-as-Row">
       <dmn:input id="_898160DB-51B2-44CE-92CD-FE5B7FFC5E19">
         <dmn:inputExpression id="_8C71E53C-1BA8-44DF-8449-AB1816C0AE0B" typeRef="string">
           <dmn:text>Trigger.memberId</dmn:text>
