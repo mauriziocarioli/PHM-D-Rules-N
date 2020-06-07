@@ -118,16 +118,86 @@
       <dmn:output id="_424A4378-2743-436E-B505-F201CF991720" name="escalationActor" typeRef="string"/>
       <dmn:rule id="_71A962FC-AECB-4E31-9A63-4089E0E34DB5">
         <dmn:inputEntry id="_4B27A0C4-AABF-4A02-A391-9E90F0420C05">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"xyz"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_30043491-FEAD-40ED-A7F5-0CFEF5E7CC03">
-          <dmn:text>-</dmn:text>
+          <dmn:text>74</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_1EEC341E-9A51-4667-8AAD-FF7CD585480D">
-          <dmn:text></dmn:text>
+          <dmn:text>"Peter"</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_A763E6EB-6167-41DE-8F49-1A820087BA88">
-          <dmn:text></dmn:text>
+          <dmn:text>"Patricia"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_C26A6D8B-7399-4AC2-855F-3DE1812412F3">
+        <dmn:inputEntry id="_AE7B5878-6446-43F0-95BD-E571C4CF623A">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_A7F4F561-FA00-4A91-A77C-E97810AD63F4">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_8DC92AA7-0398-4909-8160-9AD73F35ABF6">
+          <dmn:text>"Charlie"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_58FEB2D7-9F6E-43B9-AA60-E225EFB7D6B6">
+          <dmn:text>"Marc"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_C73802DF-0688-49E0-9345-C2D4E7A969E8">
+        <dmn:inputEntry id="_751F24C9-5F9D-42C4-86FB-B411EAE37321">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_318F6566-CA03-466B-9FF8-D57D13EFB68A">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_A27DE216-7338-40B3-B14E-9CA4D613FD20">
+          <dmn:text>"Mary"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_446E6D59-6AC6-4AE1-99B2-AACD76C58A42">
+          <dmn:text>"Charlie"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_89D89F9E-6C43-43C4-B023-E2D743F18068">
+        <dmn:inputEntry id="_4631CFCB-1E23-4C90-BC6C-73F01F27562D">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_5F3CC72B-B215-4B04-8292-A85559A6FCB7">
+          <dmn:text>74</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_03CBD7BF-05FB-437A-AEBB-C19E6B471E00">
+          <dmn:text>"Robert"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_468D5C2E-07D3-410A-AF86-4406607C582C">
+          <dmn:text>"Matthew"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_F5002258-F87A-4450-BDF9-203007E6AC63">
+        <dmn:inputEntry id="_5E5A1AFF-CA11-47F6-8365-FEB26363B711">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3AC4CC60-0162-49FC-8EE5-2DA7AD851E6F">
+          <dmn:text>184</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_AFBAE151-6AB6-41E6-A637-0367AE0F7340">
+          <dmn:text>"Robert"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_97D97476-63EA-4E6F-8719-48BD0B82FC11">
+          <dmn:text>"Matthew"</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_31033265-7F3D-4A32-9687-A6F64530E910">
+        <dmn:inputEntry id="_3C6FD36D-DCD4-45BD-89BC-5741E5624DEC">
+          <dmn:text>"xyz"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_EF1F6BFF-9CD2-4C7E-ADFB-225FA07AFDD7">
+          <dmn:text>184</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_99B565F2-017F-4554-9BD4-66A5D255F9ED">
+          <dmn:text>"Robert"</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_F2E044BA-A9DA-4112-9D30-14C2D5C816D0">
+          <dmn:text>"Matthew"</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
@@ -499,7 +569,7 @@
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>199.0</kie:width>
+            <kie:width>134.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
