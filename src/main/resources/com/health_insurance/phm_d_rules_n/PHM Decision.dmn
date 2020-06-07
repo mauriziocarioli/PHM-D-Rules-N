@@ -103,7 +103,7 @@
     <dmn:informationRequirement id="_FC4DA998-0A36-44F7-948B-B49626CB6FC7">
       <dmn:requiredInput href="#_E8020987-D86A-4104-824E-2DD5D5A6D6B9"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_A0ED2B1D-83B0-471D-9C9F-EC327B88F39A" hitPolicy="PRIORITY" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_A0ED2B1D-83B0-471D-9C9F-EC327B88F39A" hitPolicy="COLLECT" preferredOrientation="Rule-as-Row">
       <dmn:input id="_7B6FE565-800D-4C83-81D8-8D752188465D">
         <dmn:inputExpression id="_E317C3B4-F8CD-431A-8D16-B3B8B5DF48A5" typeRef="string">
           <dmn:text>Trigger.memberId</dmn:text>
